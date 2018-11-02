@@ -1,0 +1,24 @@
+body{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: lightblue;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.container {
+  text-align: center;
+  font-family: "Monoton";
+  color: #d11f3a;
+}
+.type {
+  font-size: 15px;
+}
+#bosnianPizza, #chickenPizza, #greekPizza, #pepperoniPizza, #margaritaPizza, #prosciuttoPizza, #veggiePizza, #hawaiianPizza {
+  font-size: 20px;
+}
