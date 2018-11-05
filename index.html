@@ -16,59 +16,347 @@
         <h1>Welcome &nbsp; &nbsp; to &nbsp; &nbsp; Ed's &nbsp; &nbsp; Pizza</h1>
     </div>
     <hr>
+    <!-- <div class="container-fluid">
+      <div class="interior">
+        <img src="img/interior1.jpg" alt="interior1" width="300px" height="300px">
+        <img src="img/interior2.jpg" alt="interior2" width="300px" height="300px">
+      </div>
+    </div> -->
+    <hr>
     <div class="container-fluid">
       <div class="menu">
-        <h1>Menu: </h1>
+        <h1>Menu:</h1>
+        <br>
         <div class="row">
-            <div class="col-md-4" id="bosnianPizza">Bosnian Pizza
-            <img src="img/bosnian.jpg" alt="bosnian" width="300px" height="200px">
+            <div class="col-md-4" id="bosnianPizza"><p><strong>Bosnian Pizza</strong></p>
+              <div class="pics" value="pic1"><img src="img/bosnian.jpg" alt="bosnian" width="300px" height="200px"></div>
+                <div class="info"><p><i>Tomato sauce based pizza with traditional Bosnian ingredients, bell peppers, origano and tomatoes.</i></p></div>
             </div>
-            <div class="col-md-4" id="chickenPizza">Chicken Fiesta Pizza
-            <img src="img/chicken-fiesta.jpg" alt="chicken-fiesta" width="300px" height="200px">
+            <div class="col-md-4" id="chickenPizza"><p><strong>Alfredo Chicken Pizza</strong></p>
+              <div class="pics" value="pic2"><img src="img/chicken-fiesta.jpg" alt="chicken-fiesta" width="300px" height="200px"></div>
+                <div class="info"><p><i>Alfredo suace based pizza with chicken, mozzarlla, parmesan, garlic and chopped spinach.</i></p></div>
             </div>
-            <div class="col-md-4" id="greekPizza">Greek Pizza
-            <img src="img/greek.jpg" alt="greek" width="300px"  height="200px">
+            <div class="col-md-4" id="greekPizza"><p><strong>Greek Pizza</strong></p>
+              <div class="pics" value="pic3"><img src="img/greek.jpg" alt="greek" width="300px"  height="200px"></div>
+                <div class="info"><p><i>Olive oil based pizza with onions, kalamata olives, gyro meat, feta chese and bell peppers.</i></p></div>
             </div>
-            <div class="col-md-4" id="margaritaPizza">Margarita Pizza
-            <img src="img/margarita.jpg" alt="margarita" width="300px" height="200px">
+            <div class="col-md-4" id="margaritaPizza"><p><strong>Margherita Pizza</strong></p>
+              <div class="pics" value="pic4"><img src="img/margarita.jpg" alt="margarita" width="300px" height="200px"></div>
+                <div class="info"><p><i>Tomato sauce based pizza with mozzarella, tomatoes and basil.</i></p></div>
             </div>
-            <div class="col-md-4" id="pepperoniPizza">Peperoni Pizza
-            <img src="img/pepperoni.jpg" alt="pepperoni" width="300px"  height="200px">
+            <div class="col-md-4" id="pepperoniPizza"><p><strong>Peperoni Pizza</strong></p>
+              <div class="pics" value="pic5"><img src="img/pepperoni.jpg" alt="pepperoni" width="300px"  height="200px"></div>
+                <div class="info"><p><i>Tomato sauce based pizza with mozzarella, origano and pepperoni.</i></p></div>
             </div>
-            <div class="col-md-4" id="prosciuttoPizza">Prosciutto Pizza
-            <img src="img/prosciutto.jpg" alt="prosciutto" width="300px" height="200px">
+            <div class="col-md-4" id="prosciuttoPizza"><p><strong>Prosciutto Pizza</strong></p>
+              <div class="pics" value="pic6"><img src="img/prosciutto.jpg" alt="prosciutto" width="300px" height="200px"></div>
+                <div class="info"><p><i>Olive oil based pizza with prosciutto, ricota, arugula and tomatoes.</i></p></div>
             </div>
-            <div class="col-md-4" id="veggiePizza">Veggie Pizza
-            <img src="img/veggie.jpg" alt="veggie" width="300px"  height="200px">
+            <div class="col-md-4" id="veggiePizza"><p><strong>Veggie Pizza</strong></p>
+              <div class="pics" value="pic7"><img src="img/veggie.jpg" alt="veggie" width="300px"  height="200px"></div>
+                <div class="info"><p><i>Tomato sauce based pizza with mozzarella, bell peppers, olives, tomatoes and onions.</i></p></div>
             </div>
-            <div class="col-md-4" id="hawaiianPizza">Hawaiian Pizza
-            <img src="" alt="">
+            <div class="col-md-4" id="hawaiianPizza"><p><strong>Hawaiian Pizza</strong></p>
+              <div class="pics" value="pic8"><img src="img/hawaiian.jpg" alt="veggie" width="300px"  height="200px"></div>
+                <div class="info"><p><i>Tomato sauce based pizza with ham, mozzarella and pineapple chunks.</i></p></div>
             </div>
         </div>
       </div>
     </div>
     <hr>
-    <div class="container-fluid">
-      <h1>Order a pizza</h1>
-      <div class="row">
-        <div class="col-md-6">
-          <form id="new-order">
-            <div class="form-group">
-            <label for="new-pizza">Which pizza would you like to order?</label>
-            <select class="form-control" id="pizza-options">
-                <option value="bosnian">Bosnian Pizza</option>
-                <option value="chicken">Chicken Fiesta Pizza</option>
-                <option value="greek">Greek Pizza</option>
-                <option value="margarita">Margarita Pizza</option>
-                <option value="pepperoni">Peperoni Pizza</option>
-                <option value="prosciutto">Prosciutto Pizza</option>
-                <option value="veggie">Veggie Pizza</option>
-                <option value="hawaiian">Hawaiian Pizza</option>
-            </select>
-            </div>
-          </form>
+    <div class="order">
+      <div class="container-fluid">
+        <h1>Order a pizza</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <form id="new-order">
+              <div class="form-group">
+              <label for="new-pizza">Which pizza would you like to order?</label>
+              <select class="form-control" id="pizza-options">
+                  <option value="bosnian">Bosnian Pizza</option>
+                  <option value="chicken">Alfredo Chicken Pizza</option>
+                  <option value="greek">Greek Pizza</option>
+                  <option value="margarita">Margarita Pizza</option>
+                  <option value="pepperoni">Peperoni Pizza</option>
+                  <option value="prosciutto">Prosciutto Pizza</option>
+                  <option value="veggie">Veggie Pizza</option>
+                  <option value="hawaiian">Hawaiian Pizza</option>
+              </select>
+              <br>
+              <button type="submit" class="btn-primary">Order pizza</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
+    <div class="your-order">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="finish-order">
+            <div class="size">
+              <h2>What size of pizza would you like to order?</h2>
+              <label class="choose-size">
+                <input type="radio" name="sizes" value="large">Large 16" (feeds 4-6 persons)
+                <br>
+                <input type="radio" name="sizes" value="medium">Medium 13" (feeds 2-4 persons)
+                <br>
+                <input type="radio" name="sizes" value="small">Small 10" (feeds 1-2 persons)
+              </label>
+            </div>
+          </div>
+          <div class="bos-order">
+            <h3><strong>You have ordererd Bosnian Pizza!</strong></h3>
+              <div class="container-fluid">
+                <div class="bos">
+                    <label class="checkout">
+                      Tomato Sauce
+                      <input type="checkbox"  value="sauce" id="tomato" checked="checked">
+                      <p>__________________________________________</p>
+                      Sudjuk (traditional Bosnian sausage)
+                      <input type="checkbox"  value="meat" id="sudjuk" checked="checked">
+                      <p>__________________________________________</p>
+                      Vlasic Cheese (Bosnian goat chesse)
+                      <input type="checkbox"  value="cheese" id="goat-cheese" checked="checked">
+                      <p>__________________________________________</p>
+                      Bell Peppers
+                      <input type="checkbox"  value="toppings" id="bell" checked="checked">
+                      <p>__________________________________________</p>
+                      Origano
+                      <input type="checkbox"  value="toppings" id="origano" checked="checked">
+                      <p>__________________________________________</p>
+                      Tomatoes
+                      <input type="checkbox"  value="toppings" id="tomatoes" checked="checked">
+                      <p>__________________________________________</p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            <div class="chick-order">
+              <h3><strong>You have ordererd Alfredo Chicken Pizza!</strong></h3>
+                <div class="container-fluid">
+                  <div class="chick">
+                      <label class="checkout">
+                        Alfredo Sauce
+                        <input type="checkbox"  value="sauce" id="alfredo" checked="checked">
+                        <p>__________________________________________</p>
+                        Grilled Chicken
+                        <input type="checkbox"  value="meat" id="chicken" checked="checked">
+                        <p>__________________________________________</p>
+                        Mozarella
+                        <input type="checkbox" value="cheese" id="mozzarella" checked="checked">
+                        <p>__________________________________________</p>
+                        Parmesan
+                        <input type="checkbox" value="cheese" id="parmesan" checked="checked">
+                        <p>__________________________________________</p>
+                        Garlic
+                        <input type="checkbox"  value="toppings" id="garlic" checked="checked">
+                        <p>__________________________________________</p>
+                        Spinach
+                        <input type="checkbox"  value="toppings" id="spinach" checked="checked">
+                        <p>__________________________________________</p>
+                      </label>
+                    </div>
+                </div>
+            </div>
+            <div class="greek-order">
+              <h3><strong>You have ordererd Greek Pizza!</strong></h3>
+                <div class="container-fluid">
+                  <div class="greek">
+                      <label class="checkout">
+                        Olive Oil
+                        <input type="checkbox"  value="sauce" id="olive" checked="checked">
+                        <p>__________________________________________</p>
+                        Gyro Meat
+                        <input type="checkbox"  value="meat" id="gyro" checked="checked">
+                        <p>__________________________________________</p>
+                        Mozarella
+                        <input type="checkbox" value="cheese" id="mozzarella" checked="checked">
+                        <p>__________________________________________</p>
+                        Feta Cheese
+                        <input type="checkbox" value="cheese" id="feta" checked="checked">
+                        <p>__________________________________________</p>
+                        Bell Peppers
+                        <input type="checkbox"  value="toppings" id="bell" checked="checked">
+                        <p>__________________________________________</p>
+                        Kalamata Olives
+                        <input type="checkbox"  value="toppings" id="olives" checked="checked">
+                        <p>__________________________________________</p>
+                      </label>
+                    </div>
+                </div>
+            </div>
+            <div class="margherita-order">
+              <h3><strong>You have ordererd Margherita Pizza!</strong></h3>
+                <div class="container-fluid">
+                  <div class="margherita">
+                      <label class="checkout">
+                        Tomato Sauce
+                        <input type="checkbox"  value="sauce" id="tomato" checked="checked">
+                        <p>__________________________________________</p>
+                        Mozarella
+                        <input type="checkbox" value="cheese" id="mozzarella" checked="checked">
+                        <p>__________________________________________</p>
+                        Tomatoes
+                        <input type="checkbox"  value="toppings" id="tomatoes" checked="checked">
+                        <p>__________________________________________</p>
+                        Basil
+                        <input type="checkbox"  value="toppings" id="basil" checked="checked">
+                        <p>__________________________________________</p>
+                      </label>
+                    </div>
+                </div>
+            </div>
+            <div class="pepperoni-order">
+              <h3><strong>You have ordererd Pepperoni Pizza!</strong></h3>
+                <div class="container-fluid">
+                  <div class="pepperoni">
+                      <label class="checkout">
+                        Tomato Sauce
+                        <input type="checkbox"  value="sauce" id="tomato" checked="checked">
+                        <p>__________________________________________</p>
+                        Mozarella
+                        <input type="checkbox" value="cheese" id="mozzarella" checked="checked">
+                        <p>__________________________________________</p>
+                        Pepperoni
+                        <input type="checkbox"  value="meat" id="pepperoni" checked="checked">
+                        <p>__________________________________________</p>
+                        Origano
+                        <input type="checkbox"  value="toppings" id="origano" checked="checked">
+                        <p>__________________________________________</p>
+                      </label>
+                    </div>
+                </div>
+            </div>
+            <div class="prosciutto-order">
+              <h3><strong>You have ordererd Prosciutto Pizza!</strong></h3>
+                <div class="container-fluid">
+                  <div class="prosciutto">
+                      <label class="checkout">
+                        Olive Oil
+                        <input type="checkbox"  value="sauce" id="olive" checked="checked">
+                        <p>__________________________________________</p>
+                        Ricota
+                        <input type="checkbox" value="cheese" id="ricota" checked="checked">
+                        <p>__________________________________________</p>
+                        Prosciutto
+                        <input type="checkbox"  value="meat" id="prosciutto" checked="checked">
+                        <p>__________________________________________</p>
+                        Arugula
+                        <input type="checkbox"  value="toppings" id="arugula" checked="checked">
+                        <p>__________________________________________</p>
+                        Tomatoes
+                        <input type="checkbox"  value="toppings" id="tomatoes" checked="checked">
+                        <p>__________________________________________</p>
+                      </label>
+                    </div>
+                </div>
+            </div>
+            <div class="veggie-order">
+              <h3><strong>You have ordererd Veggie Pizza!</strong></h3>
+                <div class="container-fluid">
+                  <div class="veggie">
+                      <label class="checkout">
+                        Tomato Sauce
+                        <input type="checkbox"  value="sauce" id="tomato" checked="checked">
+                        <p>__________________________________________</p>
+                        Mozarella
+                        <input type="checkbox" value="cheese" id="mozzarella" checked="checked">
+                        <p>__________________________________________</p>
+                        Bell Peppers
+                        <input type="checkbox"  value="toppings" id="bell" checked="checked">
+                        <p>__________________________________________</p>
+                        Onions
+                        <input type="checkbox"  value="toppings" id="onions" checked="checked">
+                        <p>__________________________________________</p>
+                        Tomatoes
+                        <input type="checkbox"  value="toppings" id="tomatoes" checked="checked">
+                        <p>__________________________________________</p>
+                        Olives
+                        <input type="checkbox"  value="toppings" id="olives" checked="checked">
+                        <p>__________________________________________</p>
+                      </label>
+                    </div>
+                </div>
+            </div>
+            <div class="hawaiian-order">
+              <h2><strong>WE ONLY MAKE REAL PIZZAS!</strong></h2>
+            </div>
+            <hr>
+            <div class="custom">
+              <button type="submit" class="btn-primary">Choose toppings</button>
+              <div class="sauces">
+                <h3>Pick a sauce:</h3>
+                <label>
+                  Tomato Suace
+                  <input type="checkbox"  value="sauce" id="tomato">
+                  Olive Oil
+                  <input type="checkbox"  value="sauce" id="olive">
+                  Alfredo Sauce
+                  <input type="checkbox"  value="sauce" id="alfredo">
+                </label>
+              </div>
+              <div  class="meats">
+                <h3>Pick a meat:</h3>
+                <label>
+                  Sudjuk (traditional Bosnian sausage)
+                  <input type="checkbox"  value="meat" id="sudjuk">
+                  Grilled Chicken
+                  <input type="checkbox"  value="meat" id="chicken">
+                  Gyro Meat
+                  <input type="checkbox"  value="meat" id="gyro">
+                  Pepperoni
+                  <input type="checkbox"  value="meat" id="pepperoni">
+                  Prosciutto
+                  <input type="checkbox"  value="meat" id="prosciutto">
+                </label>
+              </div>
+              <div  class="cheeses">
+                <h3>Pick a cheese:</h3>
+                <label>
+                  Vlasic Cheese (Bosnian goat chesse)
+                  <input type="checkbox"  value="cheese" id="goat-cheese">
+                  Mozarella
+                  <input type="checkbox" value="cheese" id="mozzarella">
+                  Parmesan
+                  <input type="checkbox" value="cheese" id="parmesan">
+                  Feta Cheese
+                  <input type="checkbox" value="cheese" id="feta">
+                  Ricota
+                  <input type="checkbox" value="cheese" id="ricota">
+                  </label>
+                </div>
+                <div class="toppings">
+                  <h3>Choose toppings:</h3>
+                <label>
+                  Bell Peppers
+                  <input type="checkbox"  value="toppings" id="bell">
+                  Origano
+                  <input type="checkbox"  value="toppings" id="origano">
+                  Tomatoes
+                  <input type="checkbox"  value="toppings" id="tomatoes">
+                  Garlic
+                  <input type="checkbox"  value="toppings" id="garlic">
+                  Spinach
+                  <input type="checkbox"  value="toppings" id="spinach">
+                  Basil
+                  <input type="checkbox"  value="toppings" id="basil">
+                  Arugula
+                  <input type="checkbox"  value="toppings" id="arugula">
+                  Onions
+                  <input type="checkbox"  value="toppings" id="onions">
+                  Olives
+                  <input type="checkbox"  value="toppings" id="olives">
+                </label>
+                </div>
+              </div>
+              <hr>
+              <button type="submit" class="btn-success">Complete the order</button>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+      <hr>
   </body>
 </html>

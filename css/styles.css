@@ -1,8 +1,8 @@
 body{
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   background-color: lightblue;
 }
 .logo {
@@ -25,3 +25,16 @@ body{
 .menu {
   font-family: Alegreya;
 }
+.order {
+  font-family: Alegreya;
+}
+.your-order {
+  font-family: Alegreya;
+  /* display: none; */
+}
+/* .interior {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+} */
