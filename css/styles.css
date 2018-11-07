@@ -13,28 +13,4 @@ body{
 }
 .container {
   text-align: center;
-  font-family: "Monoton";
   color: #d11f3a;
-}
-.type {
-  font-size: 15px;
-}
-#bosnianPizza, #chickenPizza, #greekPizza, #pepperoniPizza, #margaritaPizza, #prosciuttoPizza, #veggiePizza, #hawaiianPizza {
-  font-size: 20px;
-}
-.menu {
-  font-family: Alegreya;
-}
-.order {
-  font-family: Alegreya;
-}
-.your-order {
-  font-family: Alegreya;
-  /* display: none; */
-}
-/* .interior {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-} */
