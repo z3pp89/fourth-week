@@ -11,10 +11,10 @@ _This webpage is pizza ordering site with options of delivery after you make you
 
 ## Specifications
 
-*Enter user information
-*Make your own pizza (choosing size, sauce, cheese, meat and toppings)
-*After clicking on "Place Order" your address and pizza you have ordered will appear including the price
-*After clicking on "Check Out" page will refresh
+* _Enter user information_
+* _Make your own pizza (choosing size, sauce, cheese, meat and toppings)_
+* _After clicking on "Place Order" your address and pizza you have ordered will appear including the price_
+* _After clicking on "Check Out" page will refresh_
 
 ## Setup/Installation Requirements
 
