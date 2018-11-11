@@ -7,7 +7,14 @@
 ## Description
 
 _A web page for my fourth solo project_
-_This webpage is pizza ordering site with options of delivery or pickup after you make your own pizza_
+_This webpage is pizza ordering site with options of delivery after you make your own pizza_
+
+## Specifications
+
+*Enter user information
+*Make your own pizza (choosing size, sauce, cheese, meat and toppings)
+*After clicking on "Place Order" your address and pizza you have ordered will appear including the price
+*After clicking on "Check Out" page will refresh
 
 ## Setup/Installation Requirements
 
